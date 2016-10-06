@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" src= "style.css" href="https://fonts.googleapis.com/css?family=Poiret+One">
+	<style>
+	title {
+		font-family:"Poiret+One",cursive; 
+		font-size: 48px;
+	}
+	<title>Serendipity</title>
+	</style>
+	<style>
+	
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+}
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: transparent;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+
+<body>
+	<header>
+		<img src="ocean.jpg" style="width:100%; height:100%;"> 
+		<h1 style="text-align:center;"><stong> Serendipity</strong></h1>
+
+		<ul>
+  <li><a class="active" href="midterm.html">Home</a></li>
+  <li><a href="article.html">Travel</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Humor</a>
+    <div class="dropdown-content">
+      <a href="midterm.html">Bagels</a>
+      <a href="article.html">Mom on Facebook</a>
+      <a href="midterm.html">Funny Stuff</a>
+      <a href="midterm.html">Laughs</a>
+    </div>
+  <li><a href="midterm.html">Life</a>
+  </li>
+</ul>
+		</nav>
+	</header>
+
+</body>
+</html>
