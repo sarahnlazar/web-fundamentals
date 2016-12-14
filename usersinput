@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="Color:green;">I'm Thinking Of A Number Between 1 and 10</h1>
+
+<p style="color:red">Guess the number below:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x, text;
+
+    x = document.getElementById("numb").value;
+
+    if (isNaN(x) || x < 8|| x > 8) {
+        text = "Nice Try, But No.";
+    } else {
+        text = "You Read My Mind!";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
